@@ -1,4 +1,6 @@
-﻿namespace HTTPClient
+﻿using HTTPClient.ViewModels;
+
+namespace HTTPClient
 {
     public partial class AppShell : Shell
     {
