@@ -27,7 +27,7 @@ namespace HTTPClient.ViewModels
         public async void getPosts()
         {
             PostService postsService = new PostService();
-            Posts = await postsService.GetPostsAsync();
+            posts = await postsService.GetPostsAsync();
         }
     }
 }
